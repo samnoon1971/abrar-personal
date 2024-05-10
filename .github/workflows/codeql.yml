@@ -46,8 +46,6 @@ jobs:
         include: 
           - language: "javascript"
             build-mode: "none"
-          - language: "typescript"
-            build-mode: "none"
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
